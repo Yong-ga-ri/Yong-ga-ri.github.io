@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "오늘은 "
+title: "First Posting "
 excerpt: "Github Blog글을 처음 써보며."
 
 categorise:
