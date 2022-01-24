@@ -1,6 +1,6 @@
 var store = [{
-        "title": "github.io 블로그 첫 포스팅입니다",
-        "excerpt":"여기엔 Markdown문법으로 적으면 된다. 나는 블로그를 만들었을때 시간이 많이 들었지만, 다른사람들은 이글을 보고 조금 더 빨리 만들었으면 좋겠다.  ","categories": [],
+        "title": "First Posting ",
+        "excerpt":"첫 잔에 배부르지 말자   이제 시작하는 입장으로서 겁도 나고 “내가 과연 할 수 있을까?”라는 생각이 든다.   하지만 나는 할 수 있다고 자신한다. 앞으로의 내게 기대를 걸어본다.  ","categories": [],
         "tags": ["Blog"],
         "url": "/firstPosting/",
         "teaser": null
