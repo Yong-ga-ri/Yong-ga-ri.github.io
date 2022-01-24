@@ -15,7 +15,7 @@
 minimal_mistakes_skin: "plum" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale: "en-US"
+locale: "ko"
 title: "Site Title"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
@@ -101,11 +101,11 @@ analytics:
 
 # Site Author
 author:
-  name: "Your Name"
+  name: "Yong-ga-ri"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "I am an **amazing** person."
-  location: "Somewhere"
-  email:
+  bio: "차근차근 준비하는 개발자"
+  location: "737 Seneca Ter., Sunnyvale, CA 94087, USA"
+  email: "rlfgks97@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
