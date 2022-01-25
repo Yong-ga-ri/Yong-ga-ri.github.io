@@ -15,21 +15,25 @@
 minimal_mistakes_skin: "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale: "ko"
-title: "블로그 이름"
+locale: "ko-KR"
+title: "블로그 타이틀" # 탭창에 표시되는 곳
 title_separator: "-"
-subtitle: # site tagline that appears below site title in masthead
+# subtitle: # site tagline that appears below site title in masthead
+subtitle: "ㄴㅁㅁㄴㅇㅍ" # 화면 title 하단에 있는 소제목입니다.
 name: "YongGari"
 description: "Wonderful Dev Blog."
 url: "https://Yong-ga-ri.github.io"
 # baseurl: # the subpath of your site, e.g. "/blog" # 자동으로 도메인 주소 뒤에 연결해주는 부분
-repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+# baseurl: # 폴백(예기치 못한 오류)일 때 연결되는 url입니다.
+repository: # GitHub Repo username/repo-name e.g. "mmistakes/minimal-mistakes"
 # teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 teaser: # "/assets /images/ㅁㅇㄴㄹ.png" # 뭘까 얘는
+# teaser: # 폴백일 때 보일 이미지입니다. "assets/images/"로 연결됩니다.
 # logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+# logo: # 화면에 보여지는 logo 이미지입니다. "assets/images"로 세팅합니다.
 logo: # "/images/ㅁㅇㄴㄹ.png" # 경로설정의 문제가 있음
 # masthead_title: # overrides the website title displayed in the masthead, use " " for no title
-masthead_title: "여기에이름을적는게좋겠다" # 띄어쓰기가 들어가면 안됨
+masthead_title: "여기에이름을적는게좋겠다" # 화면 title 입니다. # 띄어쓰기가 들어가면 안됨
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
 comments:
@@ -103,12 +107,20 @@ analytics:
     anonymize_ip: # true, false (default)
 
 # Site Author
+# 블로그 좌측에서 보여지는 프로필 영역
+# 예시의 경우는 프로필 사진을 보관할 곳은 image라고 따로 만들어서 진행하였습니다만, 원래 있는 assets의 폴더를 바로 활용해주셔도 괜찮습니다. 사진경로, 확장자명까지 명확히 기재
 author:
   name: "Yong-ga-ri"
+  # avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  # avatar: "image/profile/2020me.jpg"     # 프로필 사진 경로입니다.
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "차근차근 준비하는 개발자"
+  bio:
+    "**기록이 자산!!**<br>매일 공부하고 있습니다.<br>소통을 좋아합니다."
+    # biography의 약칭으로, 자기소개를 적으시면 됩니다.
+    # 줄바꿈은 <br>로 굵은 글씨는 **글씨** 로 표기해주세요.
+  # bio: "차근차근 준비하는 개발자"
   location: "737 Seneca Ter., Sunnyvale, CA 94087, USA"
-  email: "rlfgks97@gmail.com"
+  email: "rlfgks97@gmail.com" # link에서 작성이 가능하기에 생략해도 됨
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -125,22 +137,25 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "Instagram" # 표시되는 이름입니다.
+      icon: "fab fa-fw fa-instagram" # fab fa-fw fa-{SNS NAME} 으로 해주세요.
+      # url: "https://instagram.com/" # 개인 SNS 계정 링크를 기재하면 됩니다.
 
 # Site Footer
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:rlfgks97@email.com
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      # url: # 이런식으로 url을 주석처리하면 노출되지 않습니다.
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      # url: https://www.facebook.com/profile.php?id=100010653670076
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      # url: "https://github.com/Yong-ga-ri"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -149,7 +164,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://www.instagram.com/giranigorani/?hl=ko"
 
 # Reading Files
 include:
@@ -213,7 +228,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show # default 5
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -281,3 +296,13 @@ defaults:
       comments: # true
       share: true
       related: true
+
+  ################################################################################
+  # _pages                      : 해당 하단 영역이 새로 추가되었습니다.
+  - scope:
+      path: "_pages"
+      # type: pages
+      type: pages
+    values:
+      layout: single
+      author_profile: true

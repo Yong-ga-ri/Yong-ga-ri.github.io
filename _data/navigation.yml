@@ -10,3 +10,6 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+  - title: "목차"
+    url: "/categories/" # redirect URL
