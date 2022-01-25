@@ -12,21 +12,24 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "plum" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: "ko"
-title: "Site Title"
+title: "블로그 이름"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
-name: "Your Name"
-description: "An amazing website."
+name: "YongGari"
+description: "Wonderful Dev Blog."
 url: "https://Yong-ga-ri.github.io"
-baseurl: # the subpath of your site, e.g. "/blog"
+# baseurl: # the subpath of your site, e.g. "/blog" # 자동으로 도메인 주소 뒤에 연결해주는 부분
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: # overrides the website title displayed in the masthead, use " " for no title
+# teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser: # "/assets /images/ㅁㅇㄴㄹ.png" # 뭘까 얘는
+# logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo: # "/images/ㅁㅇㄴㄹ.png" # 경로설정의 문제가 있음
+# masthead_title: # overrides the website title displayed in the masthead, use " " for no title
+masthead_title: "여기에이름을적는게좋겠다" # 띄어쓰기가 들어가면 안됨
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
 comments:
