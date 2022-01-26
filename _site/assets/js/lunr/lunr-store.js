@@ -22,4 +22,10 @@ var store = [{
         "tags": ["Blog"],
         "url": "/categories/onlyEnglish/",
         "teaser": null
+      },{
+        "title": "[Jekyll] 블로그 포스팅하는 방법",
+        "excerpt":" ","categories": ["categories"],
+        "tags": ["Blog","jekyll","Github","Git"],
+        "url": "/categories/example/",
+        "teaser": null
       }]

@@ -12,4 +12,4 @@ main:
   #   url: /sitemap/
 
   - title: "목차"
-    url: "/categories/" # redirect URL
+    url: "/categories/" # redirect additional URL

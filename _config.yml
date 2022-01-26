@@ -300,7 +300,7 @@ defaults:
   ################################################################################
   # _pages                      : 해당 하단 영역이 새로 추가되었습니다.
   - scope:
-      path: "_pages"
+      path: "_pages/categories"
       # type: pages
       type: pages
     values:
