@@ -296,6 +296,8 @@ defaults:
       comments: true # comment 를 주석 해지 후 true로 수정하기
       share: true
       related: true
+      # mathjax: true
+      sidebar_main: true
 
   ################################################################################
   # _pages                      : 해당 하단 영역이 새로 추가되었습니다.
